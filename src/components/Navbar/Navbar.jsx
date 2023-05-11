@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "../../../../../../../WebstormProjects/social-new-project/app/src/components/Navbar/Navbar.css";
+import "./Navbar.css";
 import {NavLink} from "react-router-dom";
 
 export const Navbar = () => {

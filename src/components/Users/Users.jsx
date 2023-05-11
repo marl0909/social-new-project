@@ -1,7 +1,7 @@
 import React from "react";
-import "../../../../../../../WebstormProjects/social-new-project/app/src/components/Users/Users.css"
-import {UserItem} from "../../../../../../../WebstormProjects/social-new-project/app/src/components/Users/UserItem/UserItem";
-import userPhoto from "../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/Default-welcomer.png";
+import "./Users.css"
+import userPhoto from "../../assets/images/Default-welcomer.png";
+import {UserItem} from "./UserItem/UserItem";
 
 
 export const Users = (props) => {

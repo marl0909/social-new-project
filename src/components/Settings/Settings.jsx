@@ -1,5 +1,5 @@
 import React from "react";
-import '../../../../../../../WebstormProjects/social-new-project/app/src/components/Settings/Settings.css'
+import './Settings.css'
 
 export const Settings = () => {
     return (

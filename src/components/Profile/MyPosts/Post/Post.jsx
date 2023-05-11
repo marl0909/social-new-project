@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 
-import "../../../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/MyPosts/Post/Post.css";
+import "./Post.css";
 
 export const Post = (props) => {
     const [isLiked, setIsLiked] = useState(false);

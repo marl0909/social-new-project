@@ -1,6 +1,5 @@
 import React from "react";
-import "../../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/ProfileInfo/ProfileInfo.css";
-import {ProfileStatus} from "./ProfileStatus/ProfileStatus";
+import "./ProfileInfo.css";
 
 export const ProfileInfo = (props) => {
     return (

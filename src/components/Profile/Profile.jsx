@@ -1,8 +1,7 @@
 import React from "react";
-import "../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/Profile.css";
-import {ProfileInfo} from "../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/ProfileInfo/ProfileInfo";
-import {MyPostsContainer} from "../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/MyPosts/MyPostsContainer";
-import userPhoto from "../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/Default-welcomer.png";
+import "./Profile.css";
+import userPhoto from "../../assets/images/Default-welcomer.png";
+import {ProfileInfo} from "./ProfileInfo/ProfileInfo";
 
 export const Profile = (props) => {
     const changerOfContacts = (contacts) => {

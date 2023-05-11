@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../../../../../../WebstormProjects/social-new-project/app/src/components/Users/UserItem/UserItem.css"
+import "./UserItem.css"
 import {NavLink} from "react-router-dom";
 
 

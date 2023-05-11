@@ -4,7 +4,6 @@ import SyncLoader from "react-spinners/SyncLoader";
 import {setMyProfile, setProfile, updateStatus, getStatus, getMyStatus} from "../../redux/profile-reducer";
 import {Profile} from "./Profile";
 import {useLocation, useNavigate, useParams} from "react-router-dom";
-import {WithAuthNavigate} from "../../hoc/withAuthNavigate";
 import {compose} from "redux";
 
 export class ProfileAPIComponent extends React.Component {

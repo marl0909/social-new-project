@@ -5,9 +5,9 @@ import {
     followTo,
 } from "../../redux/users-reducer";
 import {connect} from "react-redux";
-import {Users} from "../../../../../../../WebstormProjects/social-new-project/app/src/components/Users/Users";
 import SyncLoader from "react-spinners/SyncLoader";
 import {compose} from "redux";
+import {Users} from "./Users";
 
 
 export class UsersAPIComponent extends React.Component {

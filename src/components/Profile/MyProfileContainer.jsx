@@ -1,12 +1,10 @@
 import React from "react";
-import {ProfileContainer} from "../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/ProfileContainer";
 import SyncLoader from "react-spinners/SyncLoader";
 import {Profile} from "./Profile";
-import {useLocation, useNavigate, useParams} from "react-router-dom";
 import {compose} from "redux";
 import {connect} from "react-redux";
-import {getMyStatus, getStatus, setMyProfile, setProfile, updateStatus} from "../../redux/profile-reducer";
-import {MyPostsContainer} from "../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/MyPosts/MyPostsContainer";
+import {getMyStatus, getStatus, updateStatus} from "../../redux/profile-reducer";
+import {MyPostsContainer} from "./MyPosts/MyPostsContainer";
 
 
 export class MyProfileContainer extends React.Component {

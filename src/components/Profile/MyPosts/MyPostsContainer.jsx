@@ -1,7 +1,7 @@
 import React from "react";
-import {addLike, addPost, removeLike, updateNewTextPost} from "../../../redux/profile-reducer";
-import {MyPosts} from "../../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/MyPosts/MyPosts";
+import {addLike, addPost, removeLike} from "../../../redux/profile-reducer";
 import {connect} from "react-redux";
+import {MyPosts} from "./MyPosts";
 
 const mapStateToProps = (state) => {
     return {

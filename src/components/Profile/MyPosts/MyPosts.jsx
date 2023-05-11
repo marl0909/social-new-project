@@ -1,9 +1,9 @@
 import React from "react";
-import { Post } from "../../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/MyPosts/Post/Post";
-import "../../../../../../../../WebstormProjects/social-new-project/app/src/components/Profile/MyPosts/MyPosts.css";
+import "./MyPosts.css";
 import {Field, reduxForm} from "redux-form";
-import {maxLengthCreator, required} from "../../../utils/validators/validators";
 import {Textarea} from "../../common/FormsControls/FormsControls";
+import {maxLengthCreator, required} from "../../../utilits/validators/validators";
+import {Post} from "./Post/Post";
 
 const maxLength10 = maxLengthCreator(10)
 
