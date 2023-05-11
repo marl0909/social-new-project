@@ -1,0 +1,56 @@
+.post {
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.05);
+  margin-bottom: 0.5rem;
+  padding: 30px;
+  background-color: white;
+}
+
+.post-person-info {
+position: relative;
+  margin-bottom:60px;
+}
+
+.post-person-info__ava {
+  position: absolute;
+  top: -20px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+
+}
+
+.post-person-info__name {
+  margin-left: 80px;
+  font-family: Bahnschrift;
+  font-size: 20px;
+}
+
+.post__message {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: Arial ;
+}
+
+.post__like-count {
+  font-family: Arial
+}
+
+.liked {
+  color: #a81616;
+}
+
+.post__like-count {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.post__like-count p {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.post__like-count span {
+  font-size: 30px;
+}

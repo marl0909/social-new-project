@@ -1,0 +1,155 @@
+
+
+.personal-profile-card {
+
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.background-card-photo {
+    height: 270px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+    margin: 0 20px 0.5rem;
+}
+.description {
+    position: relative;
+    padding: 0;
+}
+
+.description__avatar {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 1rem;
+
+}
+
+
+.description__avatar-photo {
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 0.25rem;
+    width: 100%;
+    height: 100%;
+}
+
+.description__person-info {
+    padding-left: 150px;
+    margin-top: 0.5rem;
+    font-family: Bahnschrift;
+    font-size: 25px;
+    font-weight: 700;
+    max-width: 400px;
+
+}
+
+.description__person-mail {
+    margin-top: 0.5rem;
+    display: block;
+    color: #b7b3b3;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 400px;
+}
+
+.social-media-area {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.social-media-area__item {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 4px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.social-media-area__item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.instagram {
+    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225191_app_instagram_logo_media_popular_icon.png');
+}
+.facebook {
+    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225194_app_facebook_logo_media_popular_icon.png');
+}
+
+.github {
+    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/211904_social_github_icon.png');
+    background-size: 40px;
+}
+
+.youtube {
+    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225180_app_logo_media_popular_social_icon.png');
+}
+
+.twitter {
+    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225183_app_logo_media_popular_social_icon.png');
+}
+
+.website {
+    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225190_app_linkedin_logo_media_popular_icon.png');
+
+}
+
+.job-info-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.job-info-area__status, .job-info-area__skills {
+    padding-left: 25px;
+    width: 80%;
+    max-width: 700px;
+}
+
+.job-info-area__skills h2 {
+    font-family: Bahnschrift;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.job-info-area__status p {
+    color: #6b6a6a;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.job-info-area__skills p {
+    font-size: 16px;
+    font-family: Arial ;
+}
+
+
