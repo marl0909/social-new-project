@@ -1,10 +1,11 @@
 import React, {useEffect} from "react";
-import "../../../../../../../WebstormProjects/social-new-project/app/src/components/Dialogs/Dialogs.css"
+import "./Dialogs.css"
 import {DialogItem} from "./DialogItem/DialogItem";
 import {useParams} from "react-router-dom";
 import {Field, reduxForm} from "redux-form";
 import {Messages} from "./Messages/Messages";
-import {required} from "../../utils/validators/validators";
+import {required} from "../../utilits/validators/validators";
+
 
 
 export const Dialogs = (props) => {

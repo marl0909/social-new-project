@@ -1,7 +1,7 @@
 import React from "react";
 import "./DialogsItem.css"
 import {NavLink} from "react-router-dom";
-import userPhoto from '../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/Default-welcomer.png'
+import userPhoto from './../../../assets/images/Default-welcomer.png'
 
 export const DialogItem = (props) => {
 

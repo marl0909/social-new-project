@@ -1,7 +1,7 @@
 import React from "react";
 import { useLayoutEffect, useRef } from "react";
-import "../../../../../../../../WebstormProjects/social-new-project/app/src/components/Dialogs/MessageItem/MessageItem.css"
-import userPhoto from '../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/Default-welcomer.png'
+import "./MessageItem.css"
+import userPhoto from '../../../assets/images/Default-welcomer.png'
 
 
 export const MessageItem = (props) => {

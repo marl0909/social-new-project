@@ -1,7 +1,7 @@
 import React from "react";
-import "../../../../../../../WebstormProjects/social-new-project/app/src/components/Header/Header.css";
+import "./Header.css";
 import {NavLink} from "react-router-dom";
-import userDefaultPhoto from "../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/Default-welcomer.png"
+import userDefaultPhoto from "../../assets/images/Default-welcomer.png"
 
 export const Header = (props) => {
   return (

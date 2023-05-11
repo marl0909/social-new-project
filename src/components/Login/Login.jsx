@@ -1,15 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
 import {useForm} from "react-hook-form";
-import '../../../../../../../WebstormProjects/social-new-project/app/src/components/Login/Login.css'
-// import closeForm from './../../../assets/img/close-menu.png'
-// import logo from './../../../assets/img/logo.png'
+import './Login.css'
 
 export const Login = (props) => {
     const {register, handleSubmit, watch, formState: {errors, isValid}, reset} = useForm({
         mode: "onBlur",
     });
     const onSubmit = () => reset();
-    // const [isCloseOverlay, closeOverlay] = useState(false)
 
     return (
             <div className={'form-wrapper'}>

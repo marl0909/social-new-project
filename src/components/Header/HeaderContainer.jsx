@@ -1,8 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
-import {Header} from "../../../../../../../WebstormProjects/social-new-project/app/src/components/Header/Header";
-import {authUser} from "../../redux/auth-reducer";
 import {compose} from "redux";
+import {Header} from "./Header";
 
 export class HeaderAPIContainer extends React.Component {
     componentDidMount() {
