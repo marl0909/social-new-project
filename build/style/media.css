@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px) {
+    .nav-open {
+        opacity: 1;
+    }
+
+    .nav__container {
+        display: none;
+    }
+
+    .nav__container.open {
+        display: block;
+    }
+
+
+}

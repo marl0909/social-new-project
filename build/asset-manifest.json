@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6052eb2c.css",
+    "main.js": "/static/js/main.2088f411.js",
+    "static/media/3225183_app_logo_media_popular_social_icon.png": "/static/media/3225183_app_logo_media_popular_social_icon.8711272c3157fda3a169.png",
+    "static/media/Default-welcomer.png": "/static/media/Default-welcomer.ca7543eb8c998f624dc7.png",
+    "static/media/3225194_app_facebook_logo_media_popular_icon.png": "/static/media/3225194_app_facebook_logo_media_popular_icon.7c14dffbb33a6b484c1c.png",
+    "static/media/userPhoto8.jpg": "/static/media/userPhoto8.1b746ea04af55d34648f.jpg",
+    "static/media/userPhoto6.jpg": "/static/media/userPhoto6.3d9e4e6c09f841f55c48.jpg",
+    "static/media/userPhoto4.jpg": "/static/media/userPhoto4.96a80fd4787127d96784.jpg",
+    "static/media/userPhoto9.jpg": "/static/media/userPhoto9.0863464fcec41fa18a4f.jpg",
+    "static/media/userPhoto3.jpg": "/static/media/userPhoto3.9e31c2b9efe5e69ebe30.jpg",
+    "static/media/userPhoto2.jpg": "/static/media/userPhoto2.f9f51659414730c9238e.jpg",
+    "static/media/userPhoto5.jpg": "/static/media/userPhoto5.52672401a4613bb24f13.jpg",
+    "static/media/userPhoto1.jpg": "/static/media/userPhoto1.155c5a3fe45345f54c38.jpg",
+    "static/media/userPhoto10.jpg": "/static/media/userPhoto10.aa93bc567ceba68b3c91.jpg",
+    "static/media/userPhoto7.jpg": "/static/media/userPhoto7.a9655cdb772f39d12192.jpg",
+    "index.html": "/index.html",
+    "main.6052eb2c.css.map": "/static/css/main.6052eb2c.css.map",
+    "main.2088f411.js.map": "/static/js/main.2088f411.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6052eb2c.css",
+    "static/js/main.2088f411.js"
+  ]
+}
