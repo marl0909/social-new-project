@@ -1,7 +1,6 @@
 import {authAPI, profileAPI} from "../api/api";
-// import defaultUserPhoto from "../../assets/images/Default-welcomer.png";
 import React from "react";
-import {setProfileUser, toggleIsFetching} from "./profile-reducer";
+
 
 const SET_USER_DATA = 'SET_USER_DATA';
 

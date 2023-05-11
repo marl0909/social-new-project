@@ -1,7 +1,7 @@
 import {authAPI, profileAPI} from "../api/api";
-import userPhoto5 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto5.jpg'
-import userPhoto3 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto3.jpg'
-import userPhoto8 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto8.jpg'
+import userPhoto5 from './../assets/images/userPhoto5.jpg'
+import userPhoto3 from './../assets/images/userPhoto3.jpg'
+import userPhoto8 from './../assets/images/userPhoto8.jpg'
 
 const ADD_POST = 'ADD-POST';
 const SET_PROFILE_USER = 'SET_PROFILE_USER';

@@ -1,13 +1,13 @@
-import userPhoto1 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto1.jpg'
-import userPhoto2 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto2.jpg'
-import userPhoto3 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto3.jpg'
-import userPhoto4 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto4.jpg'
-import userPhoto5 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto5.jpg'
-import userPhoto6 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto6.jpg'
-import userPhoto7 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto7.jpg'
-import userPhoto8 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto8.jpg'
-import userPhoto9 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto9.jpg'
-import userPhoto10 from '../../../../../../WebstormProjects/social-new-project/app/src/assets/images/userPhoto10.jpg'
+import userPhoto1 from './../assets/images/userPhoto1.jpg'
+import userPhoto2 from './../assets/images/userPhoto2.jpg'
+import userPhoto3 from './../assets/images/userPhoto3.jpg'
+import userPhoto4 from './../assets/images/userPhoto4.jpg'
+import userPhoto5 from './../assets/images/userPhoto5.jpg'
+import userPhoto6 from './../assets/images/userPhoto6.jpg'
+import userPhoto7 from './../assets/images/userPhoto7.jpg'
+import userPhoto8 from './../assets/images/userPhoto8.jpg'
+import userPhoto9 from './../assets/images/userPhoto9.jpg'
+import userPhoto10 from './../assets/images/userPhoto10.jpg'
 
 const SEND_MESSAGE = 'ADD-MESSAGE';
 

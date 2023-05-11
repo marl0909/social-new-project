@@ -98,27 +98,27 @@
 }
 
 .instagram {
-    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225191_app_instagram_logo_media_popular_icon.png');
+    background-image: url('../../../assets/images/3225191_app_instagram_logo_media_popular_icon.png');
 }
 .facebook {
-    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225194_app_facebook_logo_media_popular_icon.png');
+    background-image: url('../../../assets/images/3225194_app_facebook_logo_media_popular_icon.png');
 }
 
 .github {
-    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/211904_social_github_icon.png');
+    background-image: url('../../../assets/images/211904_social_github_icon.png');
     background-size: 40px;
 }
 
 .youtube {
-    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225180_app_logo_media_popular_social_icon.png');
+    background-image: url('../../../assets/images/3225180_app_logo_media_popular_social_icon.png');
 }
 
 .twitter {
-    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225183_app_logo_media_popular_social_icon.png');
+    background-image: url('../../../assets/images/3225183_app_logo_media_popular_social_icon.png');
 }
 
 .website {
-    background-image: url('../../../../../../../../WebstormProjects/social-new-project/app/src/assets/images/3225190_app_linkedin_logo_media_popular_icon.png');
+    background-image: url('../../../assets/images/3225190_app_linkedin_logo_media_popular_icon.png');
 
 }
 
