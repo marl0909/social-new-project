@@ -1,0 +1,14 @@
+.messages-field__messages {
+    position: relative;
+    overflow-y: scroll;
+    scroll-margin-bottom: 0;
+    scroll-margin-top: 40px;
+
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+}

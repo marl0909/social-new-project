@@ -1,0 +1,68 @@
+.messages-field-content {
+    position: relative;
+}
+
+.messages-field-content__item {
+    box-sizing: border-box;
+    text-align: right;
+    text-align: justify;
+    float: left;
+    padding: 10px;
+    right: 20px;
+    color: #fff;
+    display: flex;
+    min-width: 20px;
+    max-width: 30vw;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    margin: 8px 26px 8px 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    position: relative;
+    transition: width .3s ease-in-out;
+}
+
+.theme{
+    background-image: linear-gradient(to bottom, #d4a241, #ef4b42, #8b599e);
+    background-size: 100vw 100vh;
+    background-position-y: 100vh;
+    background-attachment: fixed;
+}
+
+.messages-field-content__item::before {
+    content: attr(data-time);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    box-sizing: border-box;
+    padding: 0 8px 8px 0;
+    bottom: 0;
+    height: 100%;
+    width: 70px;
+    text-align: right;
+    vertical-align: center;
+    color: #818181;
+    font-size: 12px;
+    line-height: 12px;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+.messages-field-content__item:hover::before {
+    opacity: .7;
+}
+
+.messages-field-content__photo {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 0;
+}
+
+.another {
+    background-image: linear-gradient(to bottom, #6b6a6a, #9b9696, #c9b0b0);
+}

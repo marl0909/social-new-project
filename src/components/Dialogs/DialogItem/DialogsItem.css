@@ -1,0 +1,34 @@
+.dialogs-field-item-content {
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    background: #ffffff;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    display: flex;
+}
+.dialogs-field-item-content:hover {
+    background: #f8f7f7;
+}
+
+.dialogs-field-item {
+    text-decoration: none;
+
+
+}
+
+.dialogs-field-item-content__photo {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.dialogs-field-item-content__name {
+    display: block;
+    margin-left: 12px;
+    font-size: 18px;
+    font-family: Arial;
+    color: var(--color-primary);
+}
+
