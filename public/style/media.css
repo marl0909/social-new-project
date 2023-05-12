@@ -8,7 +8,7 @@
     }
 
     .nav__container.open {
-        display: block;
+        display: flex;
     }
 
 

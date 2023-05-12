@@ -10,16 +10,13 @@ export const Navbar = () => {
     <nav className="nav">
         <div className={"nav__container" + (isOpen ? ' open' : '')}>
           <div className="nav__container__item">
-            <NavLink to={"/my-profile"}>Profile</NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} to={"/my-profile"}>Profile</NavLink>
           </div>
           <div className="nav__container__item">
-            <NavLink to="/dialogs">Messages</NavLink>
-          </div>
-          <div className="nav__container__item" >
-            <NavLink to="/users">Users</NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} to="/dialogs">Messages</NavLink>
           </div>
             <div className="nav__container__item" >
-                <NavLink to="/settings">Settings</NavLink>
+                <NavLink onClick={() => setIsOpen(!isOpen)} to="/settings">Settings</NavLink>
             </div>
         </div>
       <div onClick={() => setIsOpen(!isOpen)} className={'nav-open'}>
