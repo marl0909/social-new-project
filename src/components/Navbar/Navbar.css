@@ -62,7 +62,6 @@
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   box-shadow: 0 8px 30px rgba(0,0,0,.1);
-  cursor: pointer;
 
   opacity: 0;
 }

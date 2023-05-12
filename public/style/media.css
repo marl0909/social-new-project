@@ -1,6 +1,7 @@
 @media screen and (max-width: 1200px) {
     .nav-open {
         opacity: 1;
+        cursor: pointer;
     }
 
     .nav__container {
