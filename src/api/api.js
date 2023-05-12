@@ -1,5 +1,16 @@
 import axios from "axios";
 
+async function getPromiseFromAPI(url) {
+
+    const promise = await axios.get(url);
+    const {data} = promise;
+
+    return data;
+}
+
+const res = await getPromiseFromAPI('server.php?cur=now');
+console.log(res)
+
 const instance = axios.create({
     baseURL: 'https://social-network.samuraijs.com/api/1.0/',
     withCredentials: true,
