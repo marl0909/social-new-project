@@ -5,7 +5,7 @@ import {Textarea} from "../../common/FormsControls/FormsControls";
 import {maxLengthCreator, required} from "../../../utilits/validators/validators";
 import {Post} from "./Post/Post";
 
-const maxLength10 = maxLengthCreator(10)
+const maxLength300 = maxLengthCreator(300)
 
 export const MyPosts = (props) => {
     const addPost = (values) => {
@@ -29,8 +29,7 @@ const AddPostForm = (props) => {
             <div  className="creating-post__header">
                 <button className="creating-post__btn">Post</button>
             </div>
-            <Field component={Textarea} name={'newPostBody'} placeholder={'Enter your post'} validate={[required, maxLength10]}
-                   className={"creating-post__area-of-text"} cols="100" rows="7" />
+            <Field component={Textarea} name={'newPostBody'} placeholder={'Enter your post'} validate={[required, maxLength300]}/>
         </form>
     )
 }

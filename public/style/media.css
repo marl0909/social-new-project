@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1385px) {
     .nav-open {
         opacity: 1;
         cursor: pointer;
@@ -13,4 +13,10 @@
     }
 
 
+}
+
+@media screen and (max-width: 1080px) {
+    .app-wrapper__content {
+        width: 800px;
+    }
 }
