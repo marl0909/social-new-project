@@ -18,6 +18,7 @@ export const ProfileInfo = (props) => {
                     <div className="social-media-area">
                         {Object.getOwnPropertyNames(props.contacts).map((m) =>
                             <a className={`social-media-area__item ${m}`} href={'https://www.' + props.contacts[m]} target='_blank'> </a>)}
+                        <span className="material-symbols-outlined">public</span>
                     </div>
 
                     <div className="job-info-area">

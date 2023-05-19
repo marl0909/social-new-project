@@ -20,3 +20,53 @@
         width: 800px;
     }
 }
+
+@media screen and (max-width: 860px) {
+    .app-wrapper__content {
+        width: 700px;
+    }
+
+
+}
+
+@media screen and (max-width: 765px) {
+    .app-wrapper__content {
+        width: 550px;
+    }
+
+    .job-info-area__skills p {
+        font-size: 15px;
+    }
+
+    .social-media-area__item {
+        display: none;
+        transition: none;
+    }
+
+    .post__message {
+        font-size: 15px;
+    }
+
+    .post__like-count p {
+        font-size: 18px;
+    }
+
+    .post__like-count span {
+        font-size: 25px;
+    }
+
+    .social-media-area span {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .app-wrapper__content {
+        width: 420px;
+    }
+
+    .dialogs-field-item-content__name {
+        display: none;
+        width: 0;
+    }
+}

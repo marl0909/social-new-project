@@ -119,7 +119,13 @@
 
 .website {
     background-image: url('../../../assets/images/3225190_app_linkedin_logo_media_popular_icon.png');
+}
 
+.social-media-area span {
+    display: none;
+    margin-top: 5px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .job-info-area {

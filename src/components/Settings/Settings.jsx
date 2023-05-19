@@ -1,37 +1,16 @@
 import React from "react";
 import './Settings.css'
+import {SettingItem} from "./SettingItem/SettingItem";
 
 export const Settings = () => {
     return (
         <div className={'settings-content'}>
-            <div className={'switch'}>
-                <span>Do you want to enable Two-Factor Authentication?</span>
-                <input type={'checkbox'}/>
-            </div>
-            <div className={'switch'}>
-                <span>Would you like to receive Email Notifications?</span>
-                <input type={'checkbox'}/>
-            </div>
-            <div className={'switch'}>
-                <span>Should your Online Status be displayed?</span>
-                <input type={'checkbox'}/>
-            </div>
-            <div className={'switch'}>
-                <span>Do you allow Geolocation?</span>
-                <input type={'checkbox'}/>
-            </div>
-            <div className={'switch'}>
-                <span>Do you want to enable Dark Mode?</span>
-                <input type={'checkbox'}/>
-            </div>
-            <div className={'switch'}>
-                <span>Should your Birthdate be displayed?</span>
-                <input type={'checkbox'}/>
-            </div>
-            <div className={'switch'}>
-                <span>Would you like to receive Friend Requests?</span>
-                <input type={'checkbox'}/>
-            </div>
+            <SettingItem text={'Do you want to enable Two-Factor Authentication?'} />
+            <SettingItem text={'Should your Online Status be displayed?'} />
+            <SettingItem text={'Do you allow Geolocation?'} />
+            <SettingItem text={'Do you want to enable Dark Mode?'} />
+            <SettingItem text={'Should your Birthdate be displayed?'} />
+            <SettingItem text={'Would you like to receive Friend Requests?'} />
         </div>
     )
 }
