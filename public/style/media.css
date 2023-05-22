@@ -19,6 +19,8 @@
     .app-wrapper__content {
         width: 800px;
     }
+
+
 }
 
 @media screen and (max-width: 860px) {
@@ -58,6 +60,15 @@
     .social-media-area span {
         display: block;
     }
+
+    .dialogs-field-item-content__name {
+        display: none;
+        width: 0;
+    }
+
+    .dialogs-field {
+        width: fit-content;
+    }
 }
 
 @media screen and (max-width: 620px) {
@@ -65,8 +76,18 @@
         width: 420px;
     }
 
-    .dialogs-field-item-content__name {
+}
+
+@media screen and (max-width: 500px) {
+    .app-wrapper__content {
+        width: 350px;
+    }
+
+    .dialogs-field {
         display: none;
-        width: 0;
+    }
+
+    .dialogs-field opened {
+        display: flex;
     }
 }

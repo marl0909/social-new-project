@@ -8,10 +8,9 @@ export const DialogItem = (props) => {
 
     const path = "/dialogs/" + props.id;
 
-
     return (
-        <NavLink className={"dialogs-field-item"} to={path}>
-            <div className="dialogs-field-item-content">
+        <NavLink onClick={props.openChat} className={"dialogs-field-item"} to={path}>
+            <div   className="dialogs-field-item-content">
                 <img className="dialogs-field-item-content__photo"
                      src={props.photo ? props.photo : userPhoto} alt=""/>
                 <p className="dialogs-field-item-content__name">

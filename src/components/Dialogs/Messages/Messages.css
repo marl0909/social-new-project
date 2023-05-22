@@ -3,7 +3,7 @@
     overflow-y: scroll;
     scroll-margin-bottom: 0;
     scroll-margin-top: 40px;
-
+    flex-grow: 1;
 
     display: flex;
     justify-content: flex-start;

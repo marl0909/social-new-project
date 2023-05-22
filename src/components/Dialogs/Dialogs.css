@@ -1,41 +1,42 @@
 .dialogs {
     display: flex;
-    border-radius: 15px;
-    justify-content: flex-start;
-    position: relative;
+    justify-content: space-between;
     max-height: 87vh;
     margin-top: 0;
 }
 
 .dialogs-field {
-    grid-area: d;
     border-radius: 15px;
     color: #b7b3b3;
     background-color: white;
     box-shadow: 0 8px 30px rgba(0,0,0,.05);
-    padding: 0;
     overflow-y: scroll;
     overflow-x: hidden;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
 
 }
 
 .messages-field {
-    display: grid;
-    grid-template-rows: 85%;
+    display: none;
+    flex-direction: column;
     border-radius: 15px;
     background-color: #ffffff;
     box-shadow: 0 8px 30px rgba(0,0,0,.05);
     margin-left: 20px;
-    width: 100%;
+    padding: 15px;
+    width: 75%;
+}
 
-    grid-area: m;
+.opened {
+    display: flex;
 }
 
 
 
 .messages-field__new-message-area {
-    position: absolute;
-    bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +72,6 @@
     resize: none;
     padding: 5px;
     font-size: 12px;
-    margin-left: 15px;
     width: 100%;
     border-radius: 15px;
     border: 2px  #b7b3b3 solid;

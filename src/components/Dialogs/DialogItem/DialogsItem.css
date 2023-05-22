@@ -1,5 +1,4 @@
 .dialogs-field-item-content {
-    /*position: relative;*/
     border-radius: 15px;
     padding: 10px;
     background: #ffffff;
@@ -13,8 +12,6 @@
 
 .dialogs-field-item {
     text-decoration: none;
-
-
 }
 
 .dialogs-field-item-content__photo {
